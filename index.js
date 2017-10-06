@@ -24,9 +24,3 @@ function deleteFromObjectByKey(obj, key){
   return temp;
 }
 deleteFromObjectByKey(obj, 'prop')
-
-function deleteFromObjectByKey(obj, key){
-  delete obj.key ;
-  return obj;
-}
-deleteFromObjectByKey(obj, 'prop')
