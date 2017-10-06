@@ -3,7 +3,6 @@ var recipes = {};
 var obj = { prop: 1 };
 function updateObjectWithKeyAndValue(obj, key, value){
   object[key] = value;
-
   return obj;
 }
 updateObjectWithKeyAndValue(obj, 'prop2', 2);
@@ -26,8 +25,8 @@ function deleteFromObjectByKey(obj, key){
 }
 deleteFromObjectByKey(obj, 'prop')
 
-// function deleteFromObjectByKey(obj, key){
-//   delete obj.key ;
-//   return obj;
-// }
-// deleteFromObjectByKey(obj, 'prop')
+function deleteFromObjectByKey(obj, key){
+  delete obj.key ;
+  return obj;
+}
+deleteFromObjectByKey(obj, 'prop')
