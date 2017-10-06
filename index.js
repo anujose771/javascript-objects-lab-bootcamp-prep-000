@@ -26,8 +26,8 @@ function deleteFromObjectByKey(obj, key){
 }
 deleteFromObjectByKey(obj, 'prop')
 
-function deleteFromObjectByKey(obj, key){
-  delete obj.key ;
-  return obj;
-}
-deleteFromObjectByKey(obj, 'prop')
+// function deleteFromObjectByKey(obj, key){
+//   delete obj.key ;
+//   return obj;
+// }
+// deleteFromObjectByKey(obj, 'prop')
